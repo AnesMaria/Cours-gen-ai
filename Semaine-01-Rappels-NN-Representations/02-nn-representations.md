@@ -1,4 +1,4 @@
-![Uploading Schéma RNN _ états cachés et phrase française.png…]()
+<img width="1448" height="1086" alt="Schéma RNN _ états cachés et phrase française" src="https://github.com/user-attachments/assets/8bf61aa5-129a-4a02-b77d-221a5ecdf53f" />
 # Partie A : Les réseaux construisent des représentations internes
 
 ## NN : une fonction paramétrée (base commune à CNN/RNN/Attention)
@@ -13,7 +13,7 @@
 $$
 x \xrightarrow{\ f_{\theta_1}\ } z \xrightarrow{\ f_{\theta_2}\ } \hat{y}
 $$
-
+![Schéma RNN — séquence et état caché](rnn-sequence-etat-cache.png)
 - **Pont vers CNN/RNN :** ce qui change d’une architecture à l’autre, c’est **comment** on transforme l’espace d’entrée (localité, séquence, contexte).
 
 ### Ce que fabrique réellement le réseau
@@ -46,6 +46,7 @@ y_hat = layer2(z)           # sortie finale
 **Solution :** apprendre une transformation $f_\theta$ qui construit un espace interne où la tâche devient plus simple.
 
 ### Du réseau à la représentation
+![Uploading Schéma RNN _ états cachés et phrase française.png…]()
 
 Un réseau est une grande fonction composée. On choisit une architecture, puis on ajuste les paramètres $\theta$ pour réduire une erreur. Cela vaut pour un MLP, un CNN, un RNN ou un Transformer : ce qui change, c’est la manière dont on transforme l’espace d’entrée. Ce qui nous intéresse ici n’est pas uniquement la sortie $\hat{y}$, mais ce qu’il se passe au milieu : l’espace latent.
 
