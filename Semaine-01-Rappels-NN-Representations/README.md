@@ -15,6 +15,7 @@ CNN · RNN · Attention & Transformers
 6. [Transformers et Attention](06-transformers-attention.md)
 7. [Génération vs Reconstruction](07-generation-reconstruction.md)
 8. [Échantillonnage, synthèse et auto-vérification](08-echantillonnage-synthese.md)
+9. [Schémas visuels complets](09-schemas-visuels.md)
 
 ## Objectifs
 
@@ -27,4 +28,4 @@ CNN · RNN · Attention & Transformers
 - distinguer probabilité, densité et échantillon ;
 - expliquer ce que signifie échantillonner une nouvelle donnée.
 
-Le contenu complet de la semaine est réparti dans les huit fichiers ci-dessus afin de faciliter la lecture directement sur GitHub.
+Le contenu de la semaine est organisé en chapitres Markdown, avec une page supplémentaire dédiée aux 14 schémas pédagogiques du support original afin de garder le matériel textuel et visuel consultable directement sur GitHub.
