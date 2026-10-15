@@ -1,3 +1,4 @@
+![Uploading Schéma RNN _ états cachés et phrase française.png…]()
 # Partie A : Les réseaux construisent des représentations internes
 
 ## NN : une fonction paramétrée (base commune à CNN/RNN/Attention)
